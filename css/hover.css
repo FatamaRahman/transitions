@@ -1,117 +1,117 @@
 .part2 body {
-  margin: 0;
-  padding: 0;
+  margin: 0 ;
+  padding: 0 ;
 }
 
 .part2 * {
-  box-sizing: border-box;
+  box-sizing: border-box ;
 }
 
 .part2 body {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  height: 100vh;
-  width: 100%;
-  font-family: Doko-Book, serif;
-  -webkit-font-smoothing: antialiased;
-  background-color: #e4e4e2;
+  display: -webkit-box ;
+  display: -ms-flexbox ;
+  display: flex ;
+  -webkit-box-align: center ;
+      -ms-flex-align: center ;
+          align-items: center ;
+  -webkit-box-pack: center ;
+      -ms-flex-pack: center ;
+          justify-content: center ;
+  height: 100vh ;
+  width: 100% ;
+  font-family: Doko-Book, serif ;
+  -webkit-font-smoothing: antialiased ;
+  background-color: #e4e4e2 ;
 }
 
 .part2 a {
-  font-size: 2em;
-  text-transform: uppercase;
-  text-decoration: none;
-  letter-spacing: 0.1em;
+  font-size: 2em ;
+  text-transform: uppercase ;
+  text-decoration: none ;
+  letter-spacing: 0.1em ;
 }
 
-.part2 .btn-draw {
-  position: relative;
-  display: inline-block;
-  color: #fff;
-  border-bottom: 2px solid #fff;
-  cursor: pointer;
-  overflow: hidden;
-  -webkit-transition: color 0.2s ease-in-out, background-color 0.2s ease-in-out;
-  transition: color 0.2s ease-in-out, background-color 0.2s ease-in-out;
+.part2 .button-draw {
+  position: relative ;
+  display: inline-block ;
+  color: #fff ;
+  border-bottom: 2px solid #fff ;
+  cursor: pointer ;
+  overflow: hidden ;
+  -webkit-transition: color 0.2s ease-in-out, background-color 0.2s ease-in-out ;
+  transition: color 0.2s ease-in-out, background-color 0.2s ease-in-out ;
 }
-.part2 .btn-draw:after {
-  content: '';
-  position: absolute;
-  right: 0;
-  bottom: 0;
-  height: 100%;
-  width: 2px;
-  background: #fff;
-  -webkit-transform: translateY(100%);
-          transform: translateY(100%);
-  -webkit-transition: -webkit-transform 0.2s ease-in-out;
-  transition: -webkit-transform 0.2s ease-in-out;
-  transition: transform 0.2s ease-in-out;
-  transition: transform 0.2s ease-in-out, -webkit-transform 0.2s ease-in-out;
-  -webkit-transition-delay: 0.6s;
-          transition-delay: 0.6s;
+.part2 .button-draw:after {
+  content: '' ;
+  position: absolute ;
+  right: 0 ;
+  bottom: 0 ;
+  height: 100% ;
+  width: 2px ;
+  background: #fff ;
+  -webkit-transform: translateY(100%) ;
+          transform: translateY(100%) ;
+  -webkit-transition: -webkit-transform 0.2s ease-in-out ;
+  transition: -webkit-transform 0.2s ease-in-out ;
+  transition: transform 0.2s ease-in-out ;
+  transition: transform 0.2s ease-in-out, -webkit-transform 0.2s ease-in-out ;
+  -webkit-transition-delay: 0.6s ;
+          transition-delay: 0.6s ;
 }
-.part2 .btn-draw > span {
-  position: relative;
-  display: block;
-  padding: 0.5em;
-  color: inherit;
+.part2 .button-draw > span {
+  position: relative ;
+  display: block ;
+  padding: 0.5em ;
+  color: inherit ;
 }
-.part2 .btn-draw > span:before, .btn-draw > span:after {
-  content: '';
-  position: absolute;
-  left: 0;
-  top: 0;
-  background: #fff;
-  -webkit-transition: -webkit-transform 0.2s ease-in-out;
-  transition: -webkit-transform 0.2s ease-in-out;
-  transition: transform 0.2s ease-in-out;
-  transition: transform 0.2s ease-in-out, -webkit-transform 0.2s ease-in-out;
+.part2 .button-draw > span:before, .button-draw > span:after {
+  content: '' ;
+  position: absolute ;
+  left: 0 ;
+  top: 0 ;
+  background: #fff ;
+  -webkit-transition: -webkit-transform 0.2s ease-in-out ;
+  transition: -webkit-transform 0.2s ease-in-out ;
+  transition: transform 0.2s ease-in-out ;
+  transition: transform 0.2s ease-in-out, -webkit-transform 0.2s ease-in-out ;
 }
-.part2 .btn-draw > span:before {
-  height: 2px;
-  width: 100%;
-  -webkit-transform: translateX(100%);
-          transform: translateX(100%);
-  -webkit-transition-delay: 0.4s;
-          transition-delay: 0.4s;
+.part2 .button-draw > span:before {
+  height: 2px ;
+  width: 100% ;
+  -webkit-transform: translateX(100%) ;
+          transform: translateX(100%) ;
+  -webkit-transition-delay: 0.4s ;
+          transition-delay: 0.4s ;
 }
-.part2 .btn-draw > span:after {
-  height: 100%;
-  width: 2px;
-  -webkit-transform: translateY(-100%);
-          transform: translateY(-100%);
-  -webkit-transition-delay: 0.2s;
-          transition-delay: 0.2s;
+.part2 .button-draw > span:after {
+  height: 100% ;
+  width: 2px ;
+  -webkit-transform: translateY(-100%) ;
+          transform: translateY(-100%) ;
+  -webkit-transition-delay: 0.2s ;
+          transition-delay: 0.2s ;
 }
-.part2 .btn-draw:hover:after, .btn-draw:hover > span:before, .btn-draw:hover > span:after {
-  -webkit-transform: translate(0, 0);
-          transform: translate(0, 0);
+.part2 .button-draw:hover:after, .button-draw:hover > span:before, .button-draw:hover > span:after {
+  -webkit-transform: translate(0, 0) ;
+          transform: translate(0, 0) ;
 }
-.part2 .btn-draw:hover:after {
-  -webkit-transition-delay: 0s;
-          transition-delay: 0s;
+.part2 .button-draw:hover:after {
+  -webkit-transition-delay: 0s ;
+          transition-delay: 0s ;
 }
-.part2 .btn-draw:hover > span:before {
-  -webkit-transition-delay: 0.2s;
-          transition-delay: 0.2s;
+.part2 .button-draw:hover > span:before {
+  -webkit-transition-delay: 0.2s ;
+          transition-delay: 0.2s ;
 }
-.part2 .btn-draw:hover > span:after {
-  -webkit-transition-delay: 0.4s;
-          transition-delay: 0.4s;
+.part2 .button-draw:hover > span:after {
+  -webkit-transition-delay: 0.4s ;
+          transition-delay: 0.4s ;
 }
-.part2 .btn-draw:hover {
-  color: #fff;
-  background-color: #e4e4e2;
-  -webkit-transition-delay: 0.6s;
-          transition-delay: 0.6s;
+.part2 .button-draw:hover {
+  color: #fff ;
+  background-color: #e4e4e2 ;
+  -webkit-transition-delay: 0.6s ;
+          transition-delay: 0.6s ;
 }
 
 
