@@ -1,0 +1,128 @@
+@import url(https://fonts.googleapis.com/css?family=Raleway:400,800);
+figure.snip1091 {
+  font-family: 'Raleway', Arial, sans-serif;
+  position: relative;
+  display: inline-block;
+  margin: 10px 5px;
+  min-width: 220px;
+  max-width: 310px;
+  max-height: 310px;
+  width: 100%;
+  overflow: hidden;
+  text-align: center;
+  background: #000000;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.15);
+}
+
+figure.snip1091 * {
+  -webkit-transition: all 0.35s ease-in-out;
+  transition: all 0.35s ease-in-out;
+}
+
+figure.snip1091 img {
+  opacity: 0.25;
+  max-width: 100%;
+  position: relative;
+  top: 0;
+  left: 0;
+}
+
+figure.snip1091 figcaption {
+  position: absolute;
+  top: 50%;
+  left: 30px;
+  right: 30px;
+  -webkit-transform: rotate(0deg) translateY(-50%) scale(1);
+  transform: rotate(0deg) translateY(-50%) scale(1);
+  -webkit-transform-origin: center 0;
+  transform-origin: center 0;
+}
+
+figure.snip1091 figcaption h2 {
+  top: 50%;
+  letter-spacing: -1px;
+  color: #ffffff;
+  text-transform: uppercase;
+  padding: 10px 0;
+  margin: 0;
+  font-weight: 400;
+}
+
+figure.snip1091 figcaption h2 span {
+  font-weight: 800;
+}
+
+figure.snip1091 figcaption:before,
+figure.snip1091 figcaption:after {
+  background-color: rgba(255, 255, 255, 0.8);
+  width: 100%;
+  height: 2px;
+  position: absolute;
+  content: "";
+  display: block;
+  -webkit-transition: all 0.35s ease-in-out;
+  transition: all 0.35s ease-in-out;
+}
+
+figure.snip1091 figcaption:before {
+  left: 0;
+  top: 0;
+}
+
+figure.snip1091 figcaption:after {
+  bottom: 0;
+  right: 0;
+}
+
+figure.snip1091.blue {
+  background: #091b27;
+}
+
+figure.snip1091.red {
+  background: #2e0e0a;
+}
+
+figure.snip1091.yellow {
+  background: #4f3204;
+}
+
+figure.snip1091.green {
+  background: #061c10;
+}
+
+figure.snip1091.navy {
+  background: #000000;
+}
+
+figure.snip1091 a {
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  position: absolute;
+}
+
+figure.snip1091:hover img,
+figure.snip1091.hover img {
+  opacity: 1;
+}
+
+figure.snip1091:hover figcaption,
+figure.snip1091.hover figcaption {
+  -webkit-transform: rotate(-45deg) translateY(-50%) scale(0.9);
+  transform: rotate(-45deg) translateY(-50%) scale(0.9);
+}
+
+figure.snip1091:hover figcaption:before,
+figure.snip1091.hover figcaption:before,
+figure.snip1091:hover figcaption:after,
+figure.snip1091.hover figcaption:after {
+  width: 200%;
+}
+
+/* Demo purposes only */
+
+body {
+  background-color: #212121;
+  text-align: center;
+}
